@@ -44,6 +44,20 @@
         <spring.boot.version>2.3.4.RELEASE</spring.boot.version>
         <jacoco.plugin.version>0.7.9</jacoco.plugin.version>
     </properties>
+    <dependencies>
+    <dependency>
+        <groupId>com.intuit.karate</groupId>
+        <artifactId>karate-apache</artifactId>
+        <version>0.9.6</version>
+        <scope>test</scope>
+    </dependency>            
+    <dependency>
+        <groupId>com.intuit.karate</groupId>
+        <artifactId>karate-junit5</artifactId>
+        <version>0.9.6</version>
+        <scope>test</scope>
+    </dependency>		
+  </dependencies>
 
     <modules>
         <module>karate-core</module>
@@ -152,5 +166,4 @@
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>                 
-    
-</project>
+    </project>
